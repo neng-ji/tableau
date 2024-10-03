@@ -1,26 +1,46 @@
 <html>
 <head>
-
     <title>Add Title Here</title>
+    <style>
+        /* Style to make the title centered and span the entire page */
+        h1 {
+            text-align: center; /* Centers the title horizontally */
+            width: 100%;        /* Makes the title span the entire width */
+            margin-top: 20px;    /* Optional: Adds some space from the top */
+            font-size: 2.5rem;   /* Adjust the font size if needed */
+        }
 
-    <script type="text/javascript"
-	    src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
-    <script type="text/javascript"></script>
+        /* Optional: Ensure the rest of the page is styled properly */
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;        /* Full viewport height */
+            margin: 0;
+        }
 
+        #vizContainer {
+            margin-top: 20px;     /* Adds a margin between the title and the viz container */
+        }
+
+        button {
+            margin: 10px;         /* Adds space between the buttons */
+        }
+    </style>
+    <script type="text/javascript" src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
 </head>
 
 <body>
 
-  <h1>Add Title Here</h1>
+    <h1>Add Title Here</h1>
 
-    <button id = "exportPDF">Generate PDF</button>
-    <button id = "exportImage">Generate Image</button>
-
+    <button id="exportPDF">Generate PDF</button>
+    <button id="exportImage">Generate Image</button>
 
     <div id="vizContainer"></div>
 
     <script src="./app.js"></script>
 
 </body>
-
 </html>
