@@ -2,30 +2,32 @@
 <head>
     <title>Add Title Here</title>
     <style>
-        /* Style to make the title centered and span the entire page */
+        /* Style to make the title centered horizontally and vertically adjusted */
         h1 {
             text-align: center; /* Centers the title horizontally */
             width: 100%;        /* Makes the title span the entire width */
-            margin-top: 20px;    /* Optional: Adds some space from the top */
+            margin-top: 100px;   /* Moves the title lower down the page */
             font-size: 2.5rem;   /* Adjust the font size if needed */
         }
 
-        /* Optional: Ensure the rest of the page is styled properly */
+        /* Body Flexbox to handle vertical centering */
         body {
             display: flex;
             flex-direction: column;
-            justify-content: center;
             align-items: center;
-            height: 100vh;        /* Full viewport height */
             margin: 0;
         }
 
+        /* Ensuring the vizContainer fits the 1366x768 screen size */
         #vizContainer {
-            margin-top: 20px;     /* Adds a margin between the title and the viz container */
+            margin-top: 20px;
+            width: 1366px;       /* Width adjusted to 1366px */
+            height: 768px;       /* Height adjusted to 768px */
+            border: 1px solid #ccc; /* Optional: Add a border for clarity */
         }
 
         button {
-            margin: 10px;         /* Adds space between the buttons */
+            margin: 10px;        /* Adds space between the buttons */
         }
     </style>
     <script type="text/javascript" src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
