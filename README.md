@@ -4,6 +4,8 @@ Database: Check COVID-19 Cases.rar in repository (January 22, 2020, to June 4, 2
 
 ## Click here to interact with my website: https://neng-ji.github.io/tableau/
 
+Tableau location: https://public.tableau.com/shared/RC62WHZ3Y?:display_count=n&:origin=viz_share_link
+
 Tips: How to Interact
 This interactive Tableau dashboard includes several features. 
 
