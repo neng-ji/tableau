@@ -1,12 +1,12 @@
 <html>
 <head>
-    <title>Add Title Here</title>
+    <title>Worldwide COVID-19 Confirmed Cases by Location</title>
     <style>
         /* Style to make the title centered horizontally and vertically adjusted */
         h1 {
             text-align: center; /* Centers the title horizontally */
             width: 100%;        /* Makes the title span the entire width */
-            margin-top: 20px;    /* Adjust as needed */
+            margin-top: 100px;   /* Moves the title lower down the page */
             font-size: 2.5rem;   /* Adjust the font size if needed */
         }
 
@@ -16,18 +16,18 @@
             flex-direction: column;
             align-items: center;
             margin: 0;
-            height: 100vh;        /* Full viewport height */
         }
 
-        /* Ensure the vizContainer fills the remaining space */
+        /* Ensuring the vizContainer fits the 1366x768 screen size */
         #vizContainer {
-            flex-grow: 1;         /* Makes the container grow to fill the remaining space */
-            width: 100%;          /* Full width of the screen */
-            height: calc(100vh - 120px); /* Full height, minus the title and buttons */
+            margin-top: 20px;
+            width: 1366px;       /* Width adjusted to 1366px */
+            height: 768px;       /* Height adjusted to 768px */
+            border: 1px solid #ccc; /* Optional: Add a border for clarity */
         }
 
         button {
-            margin: 10px;         /* Adds space between the buttons */
+            margin: 10px;        /* Adds space between the buttons */
         }
     </style>
     <script type="text/javascript" src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
