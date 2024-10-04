@@ -9,6 +9,6 @@ This interactive Tableau dashboard includes several features.
 
 You can click or use your mouse to select a specific region, which will filter the data accordingly. The filtered data will be reflected in another view within the dashboard, providing insights specific to your selection. You can also interact with different sections of the dashboard to explore how data in one view influences other aspects, offering a comprehensive analysis.
 
-For example: Filtering out six country
+For example: filtering out six countries
 
 ![image](https://github.com/user-attachments/assets/907c4ef6-33b2-487a-a472-5f3f2841a5de)
